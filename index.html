@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Page Layout</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="navbar">
+        <nav>
+            <div class="logo">
+                <h2>Quack</h2>
+            </div>
+            <ul class="menu">
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>SERVICE</li>
+                <li>DESIGN</li>
+                <li>CONTACT</li>
+            </ul>
+            <div class="search">
+                <input type="text" placeholder="Type Here">
+                <button class="search-btn">Search</button>
+            </div>
+
+            <div class="icons bar">
+                <i onclick="toggleMenu()" class="fa-solid fa-bars"></i>
+            </div>
+            <div class="icons x">
+                <i onclick="toggleMenu()" class="fa-solid fa-x"></i>
+            </div>
+        </nav>
+    </div>
+
+    <!-- ----------------  Home Page  --------- -->
+    <main>
+        <div class="content">
+            <h2>Web Design &</h2>
+            <h1>Development</h1>
+            <h2>Course</h2>
+            <p>Web Design is a specialisation of the design stream. They also use HTML, CSS, WYSIWYG editing software,
+                mark up validation etc. to create design elements.
+            </p>
+            <button class="join-button">JOIN US</button>
+        </div>
+
+        <div class="login">
+            <form action="login">
+                <input class="top-button" type="button" value="Login Here">
+                <br>
+                <input type="text" placeholder="Enter Email Here">
+                <br>
+                <input type="password" placeholder="Enter Password Here">
+                <br>
+                <button type="submit" class="login-botton">Login</button>
+                <p>Don't have an account?</p>
+                <p><a href=""><span>Sign up</span></a> here</p>
+                <div class="social">
+                    <p>Log in with</p>
+                    <a href=""><img src="youtube-circle-red-logo-16615.png" alt=""></a>
+                    <a href=""><img src="blue-linkedin-logo-15916.png" alt=""></a>
+                    <a href=""><img src="facebook-2870.png" alt=""></a>
+
+                </div>
+            </form>
+        </div>
+    </main>
+    <script src="/script.js"></script>
+</body>
+
+</html>
